@@ -14,8 +14,11 @@
 ## 설치
 
 ```bash
-mkdir -p ~/.claude/skills && cp -r skills/brain-storming ~/.claude/skills/
+git clone https://github.com/isihwan/brainstorming-skill.git
+mkdir -p ~/.claude/skills && cp -r brainstorming-skill/skills/brain-storming ~/.claude/skills/
 ```
+
+업데이트할 때는 `git -C brainstorming-skill pull` 후 두 번째 명령을 다시 실행합니다.
 
 ## 사용 예시
 
